@@ -1,0 +1,24 @@
+h1 {
+    color: purple;
+    background-color: gray;
+}
+div {
+    border: 2px solid purple;
+    margin-bottom: 10px;
+}
+div:hover {
+    color: purple;
+}
+a {
+    border: 2px solid blue;
+    padding: 5px;
+}
+a:active {
+    color: orange;
+}
+a:visited {
+    color: purple;
+}
+input:focus{
+    background-color:pink;
+}
