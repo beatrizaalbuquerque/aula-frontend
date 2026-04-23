@@ -34,3 +34,49 @@ li:nth-child(3) {
 li:not(.meu-item) {
     color: purple;
 }
+
+:checked {
+    margin-left: 25px;
+}
+input[type="radio"]:checked {
+    margin-left: 25px;
+}
+
+input[type="checkbox"]:checked {
+    margin-left: 25px;
+}
+
+option:checked {
+    color: red;
+}
+input:disable {
+    background: gray;
+}
+input:required {
+    border: 1px solid blue;
+}
+input[type="email"]:invalid {
+    background: pink;
+}
+input[type="email"]:valid {
+    background: green;
+}
+::placeholder {
+    color: purple;
+
+}
+p::first-letter {
+    color: blue;
+    text-transform: uppercase;
+}
+p::first-line {
+    color: gray;
+}
+p::selection {
+    color: pink;
+    background: blue;
+}
+::marker {
+    color: pink;
+    font-size: 23px;
+}
