@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     color: purple;
     background-color: gray;
 }
@@ -27,8 +27,8 @@ li:first-child {
 }
 li:last-child {
     color: purple; */
- }
-li:nth-child(3) {
+ /* } */
+/* li:nth-child(3) {
     color: gray;
 }
 li:not(.meu-item) {
@@ -79,4 +79,40 @@ p::selection {
 ::marker {
     color: pink;
     font-size: 23px;
+} */ 
+
+.container-pai {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    /* height: 300px; */
+    /* flex-direction: column; */
+    align-items: stretch;
+    /* flex-wrap: wrap-reverse; */
+}
+
+.container-filho {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 2px dotted black;
+    color: white;
+    display-flex: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1 {
+    background-color: green;
+}
+.item2 {
+    background-color: purple;
+}
+.item3 {
+    background-color: blue;
+}
+.item4 {
+    background-color: red;
+}
+.item5 {
+    background-color: gray;
 }
